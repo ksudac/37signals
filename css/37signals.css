@@ -1,0 +1,281 @@
+body, html{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.nav1{
+   float: right; 
+}
+
+.nav2 {
+    float: none;
+    text-align: center
+}
+
+ul {
+    list-style: none;
+    padding: 30px 60px;
+    font-size: 10pt;
+}
+
+.nav1 > li {
+    float: left;
+}
+
+.nav2 > li{
+    float: none;
+    padding: 15px;
+}
+
+.nav3{
+    padding: 50px 0 100px 100px;
+    text-align: center;
+}
+
+.nav3 > li {
+    float: left;
+    font-size: 8pt;
+    color: #989898;
+}
+
+.nav3 > li > a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 13px;
+    color:#456896;
+}
+
+a:hover {
+    color:#6cb2e1;
+}
+.sign-in {
+    color:#6cb2e1;
+}
+
+.sign-in:hover {
+    color: #456896;
+    
+}
+
+.happy {
+    color:#9a9898;
+    float:left;
+}
+
+.content{
+    width:950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin: 15px 0;
+}
+
+img, .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.space {
+    padding:25px 0;
+}
+
+.heading{
+    font-size: 18pt;
+    color: black;
+    text-decoration: none;
+}
+
+.heading:hover{
+    color: #749aca;
+}
+
+h1, h2, h3, h4, h5, h6, .heading {
+    font-family: "Times New Roman",Times,serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+h1{
+    font-size: 46pt;
+    padding: 15px;
+}
+
+h2{
+    font-size: 38pt;
+    padding: 15px;
+}
+
+h3{
+    font-size: 20pt;
+    padding: 15px;
+}
+
+.h4-gray{
+    color: #666666;
+    text-align: left !important;
+    font-family: "Times New Roman",Times,serif;
+    font-weight: 500;
+    font-size: 18pt;
+    padding: 8px;
+    line-height: 30px;
+}
+
+h4{
+    font-size: 17pt;
+    padding: 8px;
+}
+
+.pill-box{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    height:230px;
+    width:170px;
+    color: black;
+    border: #e7e7e7 solid thin;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efeeef));
+    background: -webkit-linear-gradient(top, ffffff, #efeeef);
+    background: -moz-linear-gradient(top, ffffff, #efeeef);
+    background: -ms-linear-gradient(top, ffffff, #efeeef);
+    background: -o-linear-gradient(top, ffffff, #efeeef);
+    display: inline-block;
+}
+
+a.pill-box:hover {
+  -moz-box-shadow:    0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow:         0 0 10px #000;
+}
+
+.attention, .pill-box > h3, h5, p, .box > h3{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+padding: 10px 0;
+}
+
+.pill-box > h3{
+    font-size: 22pt;
+    color: #456896;
+    text-decoration: underline;
+}
+.pill-box > h5{
+    font-size: 14pt;
+    color: #b40400;
+}
+
+.attention{
+    font-size: 12pt;
+    color: #b40400;
+    font-weight: 600;
+}
+
+.bigger{
+    font-size: 14pt !important;
+}
+
+.box{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height:230px;
+    width:180px;
+    display: inline-block;
+
+}
+
+a:hover.box > p, a.box > p, a.box > h3 {
+    color: black;
+}
+
+a:hover.box > h3 {
+    color: #749ac9;
+}
+
+.customer > img{
+width:140px;
+height:100px;
+background-image:url('../img/customers.png');
+background-position: 0 0;
+
+}
+
+.customer:hover > img {
+background-position: 0 -100;
+}
+
+.crumple, .customer{
+    font-size: 9pt;
+}
+.crumple:hover, .customer:hover{
+    text-decoration: underline;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.floatright {
+    float:right;
+    margin: 10px; 
+}
+.floatleft{
+    float:left;
+    margin: 10px; 
+}
+a.floatright {
+    margin-right: -110px;
+    margin-top:50px;
+    padding: 0;
+    text-align: center;
+}
+
+a.floatleft {
+    margin-left: -120px;
+    margin-top:60px;
+    padding: 0;
+    text-align: center;
+}
+
+.rightspace > td {
+    padding-right: 55px;
+}
+
+.last{
+    text-align: center;
+    padding: 0 30px;
+}
+
+.last > td {
+    padding:10px;
+}
+
+table, tr, td {
+    vertical-align: middle;
+}
+
+table{
+    margin:auto;
+}
+
+td{
+    color:#666666;
+    font-size: 10pt;
+}
+
+.line {
+    border-bottom: solid thin #e7e7e7;
+}
+.center{
+    text-align: center !important;
+}
+
+td > h2{
+color:#cbcbcb;
+}
