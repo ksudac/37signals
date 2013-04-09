@@ -50,13 +50,13 @@ a {
 a:hover {
     color:#6cb2e1;
 }
+
 .sign-in {
     color:#6cb2e1;
 }
 
 .sign-in:hover {
     color: #456896;
-    
 }
 
 .happy {
@@ -80,18 +80,9 @@ img, .logo {
     margin-left: auto;
     margin-right: auto;
 }
+
 .space {
     padding:25px 0;
-}
-
-.heading{
-    font-size: 18pt;
-    color: black;
-    text-decoration: none;
-}
-
-.heading:hover{
-    color: #749aca;
 }
 
 h1, h2, h3, h4, h5, h6, .heading {
@@ -130,6 +121,42 @@ h4{
     padding: 8px;
 }
 
+.heading{
+    font-size: 18pt;
+    color: black;
+    text-decoration: none;
+}
+
+.heading:hover{
+    color: #749aca;
+}
+
+.attention, .pill-box > h3, h5, p, .box > h3{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+padding: 10px 0;
+}
+
+.attention{
+    font-size: 13pt;
+    color: #b40400;
+    font-weight: 600;
+}
+
+.pill-box > h3{
+    font-size: 22pt;
+    color: #456896;
+    text-decoration: underline;
+}
+
+.pill-box > h5{
+    font-size: 14pt;
+    color: #b40400;
+}
+
+.bigger{
+    font-size: 14pt !important;
+}
+
 .pill-box{
     text-align: center;
     padding: 20px;
@@ -149,65 +176,40 @@ h4{
     display: inline-block;
 }
 
-a.pill-box:hover {
-  -moz-box-shadow:    0 0 10px #000;
-  -webkit-box-shadow: 0 0 10px #000;
-  box-shadow:         0 0 10px #000;
-}
-
-.attention, .pill-box > h3, h5, p, .box > h3{
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-padding: 10px 0;
-}
-
-.pill-box > h3{
-    font-size: 22pt;
-    color: #456896;
-    text-decoration: underline;
-}
-.pill-box > h5{
-    font-size: 14pt;
-    color: #b40400;
-}
-
-.attention{
-    font-size: 12pt;
-    color: #b40400;
-    font-weight: 600;
-}
-
-.bigger{
-    font-size: 14pt !important;
-}
-
 .box{
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 50px 10px;
     height:230px;
     width:180px;
     display: inline-block;
-
 }
 
-a:hover.box > p, a.box > p, a.box > h3 {
+.box:hover, .pill-box:hover {
+    cursor: pointer;
+}
+
+.box > p, .box > h3 > a {
     color: black;
+
 }
 
-a:hover.box > h3 {
+.box > .attention{
+    padding: 5px;
+}
+
+.box > h3 > a:hover {
     color: #749ac9;
 }
 
 .customer > img{
 width:140px;
 height:100px;
-background-image:url('../img/customers.png');
-background-position: 0 0;
-
+background:url('../img/customers.png') 0 0;
 }
 
 .customer:hover > img {
-background-position: 0 -100;
+background:url('../img/customers.png') 0 -100;
 }
 
 .crumple, .customer{
@@ -225,10 +227,12 @@ background-position: 0 -100;
     float:right;
     margin: 10px; 
 }
+
 .floatleft{
     float:left;
     margin: 10px; 
 }
+
 a.floatright {
     margin-right: -110px;
     margin-top:50px;
@@ -260,11 +264,11 @@ table, tr, td {
     vertical-align: middle;
 }
 
-table{
+table {
     margin:auto;
 }
 
-td{
+td {
     color:#666666;
     font-size: 10pt;
 }
@@ -272,10 +276,11 @@ td{
 .line {
     border-bottom: solid thin #e7e7e7;
 }
-.center{
+
+.center {
     text-align: center !important;
 }
 
-td > h2{
+td > h2 {
 color:#cbcbcb;
 }
